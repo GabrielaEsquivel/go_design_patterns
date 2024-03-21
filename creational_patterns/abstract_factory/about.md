@@ -2,6 +2,11 @@ El **_Abstract Factory Pattern_** se utiliza cuando se desea crear una colecció
 
 Este pattern propone proporcionar una interfaz para crear una familia de objetos relaciones o dependientes *sin* especificar su clase concreta.
 
+En otras palabras, una Abtract Factory es una fábrica de fábricas. Con este patrón, se proporciona una interfaz de alto nivel que encapsula un grupo de fábricas que comparten temas comunes sin especificar clases concretas. Estas fábricas producen familias de productos relacionados.
+
+Este patrón normalmente se implementa a través de una fábrica maestra (la Abstract Factory) que es capaz de crear otras fábricas, que a su vez producen productos dentro de la misma familia.
+
+
 **Problema**
 
 Supongamos que tenemos que crear una aplicación que consuma una fuente de datos para obtener la información de los alumnos inscritos en un colegio y que a su vez, podamos consultar los cursos que se ofrecen en dicho colegio.
